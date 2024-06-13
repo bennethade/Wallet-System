@@ -1,4 +1,4 @@
-<p align="center"><a href="https://benneth.benjastech.com/" target="_blank"><img src="https://benneth.benjastech.com/wp-content/uploads/2023/04/cropped-pngtree-shiny-golden-alphabet-letter-b-isolated-on-transparent-background-png-image_6954989-removebg-preview.png" width="100" height="auto" alt="Benneth"></a></p>
+<p align="center"><a href="https://www.linkedin.com/in/benneth-nyekefamo" target="_blank"><img src="https://benneth.benjastech.com/wp-content/uploads/2023/04/cropped-pngtree-shiny-golden-alphabet-letter-b-isolated-on-transparent-background-png-image_6954989-removebg-preview.png" width="100" height="auto" alt="Benneth"></a></p>
 
 
 ## About The Wallet System
@@ -107,7 +107,7 @@ This is a Laravel API App for managing users and their wallets. Each wallet can 
     - Headers:
         - Content-Type: application/json
         - (Click on the 'Headers' tab under the url, then add 'Content-Type' for key, and 'application/json' for value)
-        - (Then click on the 'body' tab next to Headers, choose raw from the sub-tab and paste the code given below in the space provided. Make sure that JSON is selected from the drop down list at the righ hand side of the 'body' you clicked)
+        - (Then click on the 'body' tab next to Headers, choose raw from the sub-tab and paste the code given below in the space provided. Make sure that JSON is selected from the drop down list at the righ hand side of the 'body' tab you clicked)
     - Body: 
         ```sh
         {
@@ -115,8 +115,6 @@ This is a Laravel API App for managing users and their wallets. Each wallet can 
             "receiver_wallet_id": 4,
             "amount": 300
         }
-
-        Click on the "send" button at the top right.
 
 
 ## Contributing
