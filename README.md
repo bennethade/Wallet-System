@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.linkedin.com/in/benneth-nyekefamo" target="_blank"><img src="https://benneth.benjastech.com/wp-content/uploads/2023/04/cropped-pngtree-shiny-golden-alphabet-letter-b-isolated-on-transparent-background-png-image_6954989-removebg-preview.png" width="200" alt="Benneth"></a></p>
+<p align="center"><a href="https://benneth.benjastech.com/" target="_blank"><img src="https://benneth.benjastech.com/wp-content/uploads/2023/04/cropped-pngtree-shiny-golden-alphabet-letter-b-isolated-on-transparent-background-png-image_6954989-removebg-preview.png" width="200" alt="Benneth"></a></p>
 
 <!-- <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -43,6 +43,41 @@ A Laravel API for managing users and their wallets. Each wallet can have differe
    ```sh
    git clone https://github.com/yourusername/walletapp.git
    cd walletapp
+
+2. Install dependencies:
+    ```sh
+    composer install
+
+3. Copy .env.example to .env and configure your database settings:
+    ```sh
+    cp .env.example .env
+
+4. Generate application key:
+    ```sh
+    Copy code
+    php artisan key:generate
+
+
+5. Run migrations and seed the database:
+    ```sh
+    php artisan migrate --seed
+
+6. Start the development server:
+    ```sh
+    php artisan serve
+
+
+
+## API Endpoints
+
+### Get All Users
+- Method: GET
+- URL: /api/users
+
+### Get All Wallets
+- Method: GET
+- URL: /api/wallets
+
 
 
 
