@@ -87,25 +87,21 @@ This is a Laravel API App for managing users and their wallets. Each wallet can 
 ### Using Postman
 
 1. Get All Users:
-
 - Method: GET
 - URL: "http://127.0.0.1:8000/api/users"
 
 
 2. Get All Wallets:
-
 - Method: GET
 - URL: "http://127.0.0.1:8000/api/wallets"
 
 
 3. Get Wallet Details:
-
 - Method: GET
 - URL: http://127.0.0.1:8000/api/wallets/1
 
 
 4. Send Money:
-
 - Method: POST
 - URL: http://127.0.0.1:8000/api/wallets/transfer
 - Headers:
