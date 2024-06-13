@@ -3,7 +3,7 @@
 
 ## About The Wallet System
 
-This is a Laravel API App for managing users and their wallets. Each wallet can have different types with specific attributes like minimum balance and monthly interest rate. The wallets can send and receive money from other wallets.
+This is a Laravel API Application for managing users and their wallets. Each wallet can have different types with specific attributes like minimum balance and monthly interest rate. The wallets can send and receive money from other wallets.
 
 ## Project Overview
 
