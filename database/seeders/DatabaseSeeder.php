@@ -20,8 +20,8 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         $this->call([
-            // WalletTypeSeeder::class,
             UserSeeder::class,
+            WalletTypeSeeder::class,
             WalletSeeder::class,
         ]);
 

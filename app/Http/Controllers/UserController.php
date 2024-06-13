@@ -10,6 +10,7 @@ class UserController extends Controller
     
     public function index()
     {
+        //Fetch all Users
         return User::all();
     }
 
