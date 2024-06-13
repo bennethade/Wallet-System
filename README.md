@@ -107,16 +107,16 @@ This is a Laravel API App for managing users and their wallets. Each wallet can 
     - Headers:
         - Content-Type: application/json
         - (Click on the 'Headers' tab under the url, then add 'Content-Type' for key, and 'application/json' for value)
-        - (Then click on the 'body' tab next to Headers, choose raw from the sub-tab and past the code below in the space provided. Make sure that JSON is selected from the drop down at the righ hand side)
+        - (Then click on the 'body' tab next to Headers, choose raw from the sub-tab and paste the code given below in the space provided. Make sure that JSON is selected from the drop down list at the righ hand side of the 'body' you clicked)
     - Body: 
-        ``sh
+        ```sh
         {
             "sender_wallet_id": 2,
             "receiver_wallet_id": 4,
             "amount": 300
         }
 
-        Click on the 'send' button at the top right.
+        Click on the "send" button at the top right.
 
 
 ## Contributing
