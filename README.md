@@ -51,7 +51,6 @@ This is a Laravel API App for managing users and their wallets. Each wallet can 
     php artisan serve
 
 
-
 ## API Endpoints
 
 ### Get All Users
