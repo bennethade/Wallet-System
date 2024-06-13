@@ -1,4 +1,4 @@
-<p align="center"><a href="https://benneth.benjastech.com/" target="_blank"><img src="https://benneth.benjastech.com/wp-content/uploads/2023/04/cropped-pngtree-shiny-golden-alphabet-letter-b-isolated-on-transparent-background-png-image_6954989-removebg-preview.png" width="200" alt="Benneth"></a></p>
+<p align="center"><a href="https://benneth.benjastech.com/" target="_blank"><img src="https://benneth.benjastech.com/wp-content/uploads/2023/04/cropped-pngtree-shiny-golden-alphabet-letter-b-isolated-on-transparent-background-png-image_6954989-removebg-preview.png" width="100" height="auto" alt="Benneth"></a></p>
 
 <!-- <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
