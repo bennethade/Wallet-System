@@ -54,7 +54,6 @@ A Laravel API for managing users and their wallets. Each wallet can have differe
 
 4. Generate application key:
     ```sh
-    Copy code
     php artisan key:generate
 
 
@@ -72,50 +71,76 @@ A Laravel API for managing users and their wallets. Each wallet can have differe
 
 ### Get All Users
 - Method: GET
-- URL: /api/users
+- URL: "/api/users"
 
 ### Get All Wallets
 - Method: GET
-- URL: /api/wallets
+- URL: "/api/wallets"
+
+
+### Get Wallet Details
+- Method: GET
+- URL: "/api/wallets/{id}" 
+- "id" (integer): The ID of the wallet.
+
+
+### Send Money
+- Method: POST
+- URL: "/api/wallets/transfer"
+- Body:
+    ``sh
+    {
+        "sender_wallet_id": 2,
+        "receiver_wallet_id": 4,
+        "amount": 300
+    }
 
 
 
+## Usage Instructions
+
+### Using Postman
+
+1. Get All Users:
+
+- Method: GET
+- URL: "http://127.0.0.1:8000/api/users"
 
 
+2. Get All Wallets:
+
+- Method: GET
+- URL: "http://127.0.0.1:8000/api/wallets"
 
 
+3. Get Wallet Details:
 
-## Laravel Sponsors
+- Method: GET
+- URL: http://127.0.0.1:8000/api/wallets/1
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### Premium Partners
+4. Send Money:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+- Method: POST
+- URL: http://127.0.0.1:8000/api/wallets/transfer
+- Headers:
+    - Content-Type: application/json
+    (Click on the 'Headers' tab under the url, then add 'Content-Type' for key, and 'application/json' for value)
+    (Then click on the 'body' tab next to Headers, choose raw from the sub-tab and past the code below in the space provided. Make sure that JSON is selected from the drop down at the righ hand side)
+- Body: 
+    ``sh
+    {
+        "sender_wallet_id": 2,
+        "receiver_wallet_id": 4,
+        "amount": 300
+    }
+
+    Click on the 'send' button at the top right.
+
 
 ## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
