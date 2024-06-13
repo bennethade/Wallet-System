@@ -106,8 +106,8 @@ This is a Laravel API App for managing users and their wallets. Each wallet can 
     - URL: http://127.0.0.1:8000/api/wallets/transfer
     - Headers:
         - Content-Type: application/json
-        (Click on the 'Headers' tab under the url, then add 'Content-Type' for key, and 'application/json' for value)
-        (Then click on the 'body' tab next to Headers, choose raw from the sub-tab and past the code below in the space provided. Make sure that JSON is selected from the drop down at the righ hand side)
+        - (Click on the 'Headers' tab under the url, then add 'Content-Type' for key, and 'application/json' for value)
+        - (Then click on the 'body' tab next to Headers, choose raw from the sub-tab and past the code below in the space provided. Make sure that JSON is selected from the drop down at the righ hand side)
     - Body: 
         ``sh
         {
