@@ -73,11 +73,12 @@ This is a Laravel API App for managing users and their wallets. Each wallet can 
 - Method: POST
 - URL: "/api/wallets/transfer"
 - Body:
-    ``sh
-    "sender_wallet_id": 2,
-    "receiver_wallet_id": 4,
-    "amount": 300
-    
+    ```sh
+    {
+        "sender_wallet_id": 2,
+        "receiver_wallet_id": 4,
+        "amount": 300
+    }
 
 
 
