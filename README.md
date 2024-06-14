@@ -17,7 +17,7 @@ This is a Laravel API Application for managing users and their wallets. Each wal
 
 ### Prerequisites
 
-- PHP >= 7.3
+- PHP >= 8.1
 - Composer
 - MySQL
 
